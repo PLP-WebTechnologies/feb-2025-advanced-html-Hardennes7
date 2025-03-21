@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the Registration Page</h1>
+    </header>
+
+    <!-- Ordered List Section -->
+    <section>
+        <h2>this website includes </h2>
+        <ol type="i">
+            <li>A image from pexels.com.</li>
+            <li>A registration form .</li>
+            <li>A table .</li>
+            
+        </ol>
+    </section>
+
+    <!-- External Image Section -->
+    <section>
+        <h2>External Image </h2>
+        
+        <img src="https://images.pexels.com/photos/15792424/pexels-photo-15792424.jpeg" alt="a beatiful lady holding a vei image ">
+    </section>
+
+    <!-- Table Section -->
+    <section>
+        <h2>Contact List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Elon Musk</td>
+                    <td> South Africa</td>
+                    <td>+27 456-7890</td>
+                    <td> elonmusk@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Strive Masiyiwa </td>
+                    <td>Zimbabwe</td>
+                    <td> +263 467-8901</td>
+                    <td>strive.masiyiwa@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Dr. Oby Ezekwesili</td>
+                    <td>Nigeria</td>
+                    <td>+234 678-9012</td>
+                    <td>oby.ezekwesili@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Dr. Magda Muwango</td>
+                    <td>Tanzania</td>
+                    <td>+255 789-0123</td>
+                    <td> magda.muwango@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>William Kamkwamba </td>
+                    <td>Malawi</td>
+                    <td>+265 890-1234</td>
+                    <td>william.kamkwamba@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form  -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="" method="">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter  full your name" required>
+
+            <label for="email">Email </label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password </label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            
+            <label for gender ="gender">Gender:</label>
+            <input type ="radio" name ="gender"value="female ">Female
+            <input type="radio" name ="gender" value="male">Male 
+            <br><br>
+            <label> country</label>
+            <select name ="country" id ="country">
+            <option>select your country</option>
+             <option value="Malawi">Malawi</option>
+             <option value="nigeria">Nigeria</option>
+             <option value="south_africa">South Africa</option>
+             <option value="kenya">Kenya</option>
+             <option value="egypt">Egypt</option>
+             <option value="ghana">Ghana</option>
+             <option value="uganda">Uganda</option>
+             <option value="tanzania">Tanzania</option>
+             <option value="zimbabwe">Zimbabwe</option>
+             <option value="morocco">Morocco</option>
+             <option value="senegal">Senegal</option>
+             
+             </select>
